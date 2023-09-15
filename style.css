@@ -3872,6 +3872,31 @@ a.link-style3 {
 
 
 
+.translation-button-container {
+    display: flex;
+    align-items: center;
+}
+
+.translation-button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    padding: 8px 12px;
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+.translation-button:hover {
+    background-color: #0056b3;
+}
+
+.translation-widget {
+    display: ; /* Cachez initialement le widget de traduction */
+}
+
+
+
 
 
 
