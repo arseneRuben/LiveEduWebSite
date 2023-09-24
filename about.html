@@ -143,10 +143,10 @@
                     <span class="icon-bar"></span>
 				</button>
 				<div class="collapse navbar-collapse" id="navbars-host">
-					<ul class="navbar-nav ml-auto">
+                    <ul class="navbar-nav ml-auto">
 						<li class="nav-item "><a class="nav-link" href="index.html">Home</a></li>
 						<li class="nav-item active"><a class="nav-link" href="about.html">About Us</a></li>
-						<li class="nav-item"><a class="nav-link" href="technologies.html">Technologies</a></li>
+						<li class="nav-item "><a class="nav-link" href="technologies.html">Technologies</a></li>
 						<li class="nav-item dropdown">
 							<a class="nav-link dropdown-toggle" href="#" id="dropdown-a" data-toggle="dropdown">Features </a>
 							<div class="dropdown-menu" aria-labelledby="dropdown-a">
@@ -387,7 +387,7 @@
         <div class="container">
             <div class="footer-distributed">
                 <div class="footer-center">                   
-                    <p class="footer-company-name">All Rights Reserved. &copy; 2018 <a href="#">SmartEDU</a> Design By : <a href="https://html.design/">html design</a></p>
+                    <p class="footer-company-name">All Rights Reserved. &copy; 2023 <a href="#">LiveEdu</a> Design By : <a href="https://www.youtube.com/@polyinformatique">Polyinformatique Group</a></p>
                 </div>
             </div>
         </div><!-- end container -->
@@ -399,7 +399,17 @@
     <script src="js/all.js"></script>
     <!-- ALL PLUGINS -->
     <script src="js/custom.js"></script>
-    <script src="translate.js"></script>r
+	<script src="js/timeline.min.js"></script>
+	<script>
+		timeline(document.querySelectorAll('.timeline'), {
+			forceVerticalMode: 700,
+			mode: 'horizontal',
+			verticalStartPosition: 'left',
+			visibleItems: 4
+		});
+	</script>
+
+    <script src="translate.js"></script>
 
 </body>
 </html>
